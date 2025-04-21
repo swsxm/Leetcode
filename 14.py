@@ -22,3 +22,8 @@ class Solution:
                     prefix_len = j
                     break
         return strs[0][:prefix_len]
+
+
+Test = Solution()
+
+print(Test.longestCommonPrefix(["haaaaa", "haaaaa"]))
